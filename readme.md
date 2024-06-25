@@ -278,6 +278,13 @@ the
 [ToneEtch.otf](https://github.com/termsurf/tone/blob/make/text/ToneEtch.otf)
 directly.
 
+## Development
+
+- [Keyman Development](https://help.keyman.com/developer/14.0/guides/command-line)
+  for the Keyman keyboard.
+  - https://help.keyman.com/developer/17.0/reference/kmc/cli/kmcomp-migration
+  - https://help.keyman.com/developer/current-version/reference/file-types/metadata
+
 ## License
 
 Copyright 2021-2024 <a href='https://term.surf'>TermSurf</a>

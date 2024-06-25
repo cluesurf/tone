@@ -1,4 +1,4 @@
-import tone from './index.js'
+import tone, { SYMBOLS } from './index.js'
 
 make('byu^dy')
 make('diU--U-m')
@@ -27,6 +27,8 @@ make('ky~O!n')
 // make('sOfIstUkeytId')
 // make('suprkAlUfrAdjUlIstIkEkspiAlOdoxOs')
 // make('spri^qkl')
+
+console.log(SYMBOLS)
 
 function make(a: string) {
   console.log('text => ' + a)

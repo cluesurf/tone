@@ -12,6 +12,7 @@
     "host/index.js.map"
   ],
   "devDependencies": {
+    "@keymanapp/kmc": "^17.0.326",
     "@trivago/prettier-plugin-sort-imports": "^4.0.0",
     "@types/lodash": "^4.14.194",
     "@types/node": "^18.11.17",
@@ -46,6 +47,10 @@
   "scripts": {
     "make": "tsc && tsc-alias",
     "make:1": "webpack",
+    "make:keyboard:code": "tsx text/keyboard",
+    "make:keyboard:kmn": "cd text/keyboard && kmc build --color --debug tone.kmn",
+    "make:keyboard:kmn": "cd text/keyboard && kmc build --color --debug tone.kps -o tone.kmp",
+    "make:keyboard:windows": "pnpm make:keyboard:code && cd text/keyboard && kmc build --color windows-package-installer",
     "move": "pnpm make && git add . && git commit -am 'save' && npm version patch && pnpm host && git push",
     "scan": "concurrently --kill-others \"tsc -w\" \"tsc-alias -w\"",
     "lint": "eslint --ext .ts ./make",

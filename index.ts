@@ -19,7 +19,12 @@ const D: Record<string, string> = {
   '': '',
 }
 
-export type Link = { i: string; name?: string; o: string }
+export type Link = {
+  i: string
+  name?: string
+  o: string
+  unicode?: boolean
+}
 
 const VOWELS: Array<Link> = []
 const BASE_VOWEL_GLYPHS = [
@@ -49,6 +54,57 @@ BASE_VOWEL_GLYPHS.forEach(g => {
           VARIANT_MARKS.forEach(v => {
             TONE_MARKS.forEach(t => {
               const i = `${g}${v}${n}${t}${s}${l}${a}`
+
+              let name: Array<string> = []
+              name.push(`Vowel ${g}`)
+
+              if (a || l || s || n || v || t) {
+                name.push(`with`)
+              }
+
+              let features: Array<string> = []
+
+              if (a) {
+                features.push(`stress`)
+              }
+              if (l) {
+                features.push(l === '_' ? 'lengthening' : 'shortening')
+              }
+              if (s) {
+                features.push(`tense`)
+              }
+              if (n) {
+                features.push(`stress`)
+              }
+              if (n) {
+                features.push(`nasalization`)
+              }
+              if (t) {
+                switch (t) {
+                  case '--':
+                    features.push(`extra low tone`)
+                    break
+                  case '-':
+                    features.push(`low tone`)
+                    break
+                  case '++':
+                    features.push(`extra high tone`)
+                    break
+                  case '+':
+                    features.push(`high tone`)
+                    break
+                }
+              }
+
+              if (features.length > 1) {
+                features[features.length - 2] = `${
+                  features[features.length - 2]
+                } and ${features[features.length - 1]}`
+                features.pop()
+              }
+
+              name.push(features.join(', '))
+
               // these two are treated specially, not getting the variant mark
               if (i.match(/([ou])\$/)) {
                 const x = RegExp.$1
@@ -60,13 +116,13 @@ BASE_VOWEL_GLYPHS.forEach(g => {
                     : `${x === 'o' ? 1 : 2}${D[l]}${D[a]}${D[t]}${
                         D[n]
                       }${D[s]}`
-                VOWELS.push({ i, o })
+                VOWELS.push({ i, o, name: name.join(' ') })
               } else {
                 const o =
                   l === '!'
                     ? `${g}${D[a]}${D[t]}${D[l]}${D[n]}${D[s]}${D[v]}`
                     : `${g}${D[l]}${D[a]}${D[t]}${D[n]}${D[s]}${D[v]}`
-                VOWELS.push({ i, o })
+                VOWELS.push({ i, o, name: name.join(' ') })
               }
             })
           })
@@ -329,8 +385,8 @@ const CONSONANTS: Array<Link> = [
   { i: ')', name: 'Closing parenthesis', o: ')' },
   { i: '[', name: 'Opening bracket', o: '[' },
   { i: ']', name: 'Closing bracket', o: ']' },
-  { i: '<', name: 'Opening angle bracket', o: '\u003c' },
-  { i: '>', name: 'Closing angle bracket', o: '\u003e' },
+  { i: '<', name: 'Opening angle bracket', o: '\u003c', unicode: true },
+  { i: '>', name: 'Closing angle bracket', o: '\u003e', unicode: true },
   { i: '|', name: 'Pipe', o: '|' },
   { i: '#', name: 'Number sign', o: '#' },
   { i: '=@', name: 'At sign', o: '@' },
@@ -340,16 +396,16 @@ const CONSONANTS: Array<Link> = [
 ]
 
 const NUMERALS = [
-  { i: '0', o: '\u00a1' },
-  { i: '1', o: '\u00a6' },
-  { i: '2', o: '\u00a2' },
-  { i: '3', o: '\u00a3' },
-  { i: '4', o: '\u00a5' },
-  { i: '5', o: '\u00a4' },
-  { i: '6', o: '\u00a9' },
-  { i: '7', o: '\u00a7' },
-  { i: '8', o: '\u00ab' },
-  { i: '9', o: '\u00ae' },
+  { i: '0', o: '\u00a1', unicode: true },
+  { i: '1', o: '\u00a6', unicode: true },
+  { i: '2', o: '\u00a2', unicode: true },
+  { i: '3', o: '\u00a3', unicode: true },
+  { i: '4', o: '\u00a5', unicode: true },
+  { i: '5', o: '\u00a4', unicode: true },
+  { i: '6', o: '\u00a9', unicode: true },
+  { i: '7', o: '\u00a7', unicode: true },
+  { i: '8', o: '\u00ab', unicode: true },
+  { i: '9', o: '\u00ae', unicode: true },
 ]
 
 export const SYMBOLS = [...VOWELS, ...CONSONANTS, ...NUMERALS]
