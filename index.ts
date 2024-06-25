@@ -74,9 +74,6 @@ BASE_VOWEL_GLYPHS.forEach(g => {
                 features.push(`tense`)
               }
               if (n) {
-                features.push(`stress`)
-              }
-              if (n) {
                 features.push(`nasalization`)
               }
               if (t) {

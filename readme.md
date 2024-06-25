@@ -284,6 +284,7 @@ directly.
   for the Keyman keyboard.
   - https://help.keyman.com/developer/17.0/reference/kmc/cli/kmcomp-migration
   - https://help.keyman.com/developer/current-version/reference/file-types/metadata
+  - https://help.keyman.com/developer/current-version/guides/distribute/packages
 
 ```bash
 pnpm make:keyboard
