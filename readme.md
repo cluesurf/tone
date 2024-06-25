@@ -285,6 +285,10 @@ directly.
   - https://help.keyman.com/developer/17.0/reference/kmc/cli/kmcomp-migration
   - https://help.keyman.com/developer/current-version/reference/file-types/metadata
 
+```bash
+pnpm make:keyboard
+```
+
 ## License
 
 Copyright 2021-2024 <a href='https://term.surf'>TermSurf</a>
