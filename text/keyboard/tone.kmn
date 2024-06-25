@@ -244,12 +244,12 @@ group(main) using keys
 'I$-' + [K_TAB] > 'I45' c Mapping for the ''I$-'' key, the vowel i with low tone
 'I$++' + [K_TAB] > 'I335' c Mapping for the ''I$++'' key, the vowel i with extra high tone
 'I$+' + [K_TAB] > 'I35' c Mapping for the ''I$+'' key, the vowel i with high tone
-'I$' + [K_TAB] > 'I5' c Mapping for the ''I$'' key, the vowel i with
+'I$' + [K_TAB] > 'I5' c Mapping for the ''I$'' key, the vowel i with 
 'I--' + [K_TAB] > 'I44' c Mapping for the ''I--'' key, the vowel i with extra low tone
 'I-' + [K_TAB] > 'I4' c Mapping for the ''I-'' key, the vowel i with low tone
 'I++' + [K_TAB] > 'I33' c Mapping for the ''I++'' key, the vowel i with extra high tone
 'I+' + [K_TAB] > 'I3' c Mapping for the ''I+'' key, the vowel i with high tone
-+ 'I' > 'I' c Mapping for the ''I'' key, the vowel i
++ 'I' > 'I' c Mapping for the ''I'' key, the vowel i 
 'E$&--@_^' + [K_TAB] > 'E%9440005' c Mapping for the ''E$&--@_^'' key, the vowel e with stress, lengthening, tense, stress, nasalization and extra low tone
 'E$&-@_^' + [K_TAB] > 'E%940005' c Mapping for the ''E$&-@_^'' key, the vowel e with stress, lengthening, tense, stress, nasalization and low tone
 'E$&++@_^' + [K_TAB] > 'E%9330005' c Mapping for the ''E$&++@_^'' key, the vowel e with stress, lengthening, tense, stress, nasalization and extra high tone
@@ -484,12 +484,12 @@ group(main) using keys
 'E$-' + [K_TAB] > 'E45' c Mapping for the ''E$-'' key, the vowel e with low tone
 'E$++' + [K_TAB] > 'E335' c Mapping for the ''E$++'' key, the vowel e with extra high tone
 'E$+' + [K_TAB] > 'E35' c Mapping for the ''E$+'' key, the vowel e with high tone
-'E$' + [K_TAB] > 'E5' c Mapping for the ''E$'' key, the vowel e with
+'E$' + [K_TAB] > 'E5' c Mapping for the ''E$'' key, the vowel e with 
 'E--' + [K_TAB] > 'E44' c Mapping for the ''E--'' key, the vowel e with extra low tone
 'E-' + [K_TAB] > 'E4' c Mapping for the ''E-'' key, the vowel e with low tone
 'E++' + [K_TAB] > 'E33' c Mapping for the ''E++'' key, the vowel e with extra high tone
 'E+' + [K_TAB] > 'E3' c Mapping for the ''E+'' key, the vowel e with high tone
-+ 'E' > 'E' c Mapping for the ''E'' key, the vowel e
++ 'E' > 'E' c Mapping for the ''E'' key, the vowel e 
 'A$&--@_^' + [K_TAB] > 'A%9440005' c Mapping for the ''A$&--@_^'' key, the vowel a with stress, lengthening, tense, stress, nasalization and extra low tone
 'A$&-@_^' + [K_TAB] > 'A%940005' c Mapping for the ''A$&-@_^'' key, the vowel a with stress, lengthening, tense, stress, nasalization and low tone
 'A$&++@_^' + [K_TAB] > 'A%9330005' c Mapping for the ''A$&++@_^'' key, the vowel a with stress, lengthening, tense, stress, nasalization and extra high tone
@@ -724,12 +724,12 @@ group(main) using keys
 'A$-' + [K_TAB] > 'A45' c Mapping for the ''A$-'' key, the vowel a with low tone
 'A$++' + [K_TAB] > 'A335' c Mapping for the ''A$++'' key, the vowel a with extra high tone
 'A$+' + [K_TAB] > 'A35' c Mapping for the ''A$+'' key, the vowel a with high tone
-'A$' + [K_TAB] > 'A5' c Mapping for the ''A$'' key, the vowel a with
+'A$' + [K_TAB] > 'A5' c Mapping for the ''A$'' key, the vowel a with 
 'A--' + [K_TAB] > 'A44' c Mapping for the ''A--'' key, the vowel a with extra low tone
 'A-' + [K_TAB] > 'A4' c Mapping for the ''A-'' key, the vowel a with low tone
 'A++' + [K_TAB] > 'A33' c Mapping for the ''A++'' key, the vowel a with extra high tone
 'A+' + [K_TAB] > 'A3' c Mapping for the ''A+'' key, the vowel a with high tone
-+ 'A' > 'A' c Mapping for the ''A'' key, the vowel a
++ 'A' > 'A' c Mapping for the ''A'' key, the vowel a 
 'O$&--@_^' + [K_TAB] > 'O%9440005' c Mapping for the ''O$&--@_^'' key, the vowel o with stress, lengthening, tense, stress, nasalization and extra low tone
 'O$&-@_^' + [K_TAB] > 'O%940005' c Mapping for the ''O$&-@_^'' key, the vowel o with stress, lengthening, tense, stress, nasalization and low tone
 'O$&++@_^' + [K_TAB] > 'O%9330005' c Mapping for the ''O$&++@_^'' key, the vowel o with stress, lengthening, tense, stress, nasalization and extra high tone
@@ -964,12 +964,12 @@ group(main) using keys
 'O$-' + [K_TAB] > 'O45' c Mapping for the ''O$-'' key, the vowel o with low tone
 'O$++' + [K_TAB] > 'O335' c Mapping for the ''O$++'' key, the vowel o with extra high tone
 'O$+' + [K_TAB] > 'O35' c Mapping for the ''O$+'' key, the vowel o with high tone
-'O$' + [K_TAB] > 'O5' c Mapping for the ''O$'' key, the vowel o with
+'O$' + [K_TAB] > 'O5' c Mapping for the ''O$'' key, the vowel o with 
 'O--' + [K_TAB] > 'O44' c Mapping for the ''O--'' key, the vowel o with extra low tone
 'O-' + [K_TAB] > 'O4' c Mapping for the ''O-'' key, the vowel o with low tone
 'O++' + [K_TAB] > 'O33' c Mapping for the ''O++'' key, the vowel o with extra high tone
 'O+' + [K_TAB] > 'O3' c Mapping for the ''O+'' key, the vowel o with high tone
-+ 'O' > 'O' c Mapping for the ''O'' key, the vowel o
++ 'O' > 'O' c Mapping for the ''O'' key, the vowel o 
 'U$&--@_^' + [K_TAB] > 'U%9440005' c Mapping for the ''U$&--@_^'' key, the vowel u with stress, lengthening, tense, stress, nasalization and extra low tone
 'U$&-@_^' + [K_TAB] > 'U%940005' c Mapping for the ''U$&-@_^'' key, the vowel u with stress, lengthening, tense, stress, nasalization and low tone
 'U$&++@_^' + [K_TAB] > 'U%9330005' c Mapping for the ''U$&++@_^'' key, the vowel u with stress, lengthening, tense, stress, nasalization and extra high tone
@@ -1204,12 +1204,12 @@ group(main) using keys
 'U$-' + [K_TAB] > 'U45' c Mapping for the ''U$-'' key, the vowel u with low tone
 'U$++' + [K_TAB] > 'U335' c Mapping for the ''U$++'' key, the vowel u with extra high tone
 'U$+' + [K_TAB] > 'U35' c Mapping for the ''U$+'' key, the vowel u with high tone
-'U$' + [K_TAB] > 'U5' c Mapping for the ''U$'' key, the vowel u with
+'U$' + [K_TAB] > 'U5' c Mapping for the ''U$'' key, the vowel u with 
 'U--' + [K_TAB] > 'U44' c Mapping for the ''U--'' key, the vowel u with extra low tone
 'U-' + [K_TAB] > 'U4' c Mapping for the ''U-'' key, the vowel u with low tone
 'U++' + [K_TAB] > 'U33' c Mapping for the ''U++'' key, the vowel u with extra high tone
 'U+' + [K_TAB] > 'U3' c Mapping for the ''U+'' key, the vowel u with high tone
-+ 'U' > 'U' c Mapping for the ''U'' key, the vowel u
++ 'U' > 'U' c Mapping for the ''U'' key, the vowel u 
 'i$&--@_^' + [K_TAB] > 'i%9440005' c Mapping for the ''i$&--@_^'' key, the vowel i with stress, lengthening, tense, stress, nasalization and extra low tone
 'i$&-@_^' + [K_TAB] > 'i%940005' c Mapping for the ''i$&-@_^'' key, the vowel i with stress, lengthening, tense, stress, nasalization and low tone
 'i$&++@_^' + [K_TAB] > 'i%9330005' c Mapping for the ''i$&++@_^'' key, the vowel i with stress, lengthening, tense, stress, nasalization and extra high tone
@@ -1444,12 +1444,12 @@ group(main) using keys
 'i$-' + [K_TAB] > 'i45' c Mapping for the ''i$-'' key, the vowel i with low tone
 'i$++' + [K_TAB] > 'i335' c Mapping for the ''i$++'' key, the vowel i with extra high tone
 'i$+' + [K_TAB] > 'i35' c Mapping for the ''i$+'' key, the vowel i with high tone
-'i$' + [K_TAB] > 'i5' c Mapping for the ''i$'' key, the vowel i with
+'i$' + [K_TAB] > 'i5' c Mapping for the ''i$'' key, the vowel i with 
 'i--' + [K_TAB] > 'i44' c Mapping for the ''i--'' key, the vowel i with extra low tone
 'i-' + [K_TAB] > 'i4' c Mapping for the ''i-'' key, the vowel i with low tone
 'i++' + [K_TAB] > 'i33' c Mapping for the ''i++'' key, the vowel i with extra high tone
 'i+' + [K_TAB] > 'i3' c Mapping for the ''i+'' key, the vowel i with high tone
-+ 'i' > 'i' c Mapping for the ''i'' key, the vowel i
++ 'i' > 'i' c Mapping for the ''i'' key, the vowel i 
 'e$&--@_^' + [K_TAB] > 'e%9440005' c Mapping for the ''e$&--@_^'' key, the vowel e with stress, lengthening, tense, stress, nasalization and extra low tone
 'e$&-@_^' + [K_TAB] > 'e%940005' c Mapping for the ''e$&-@_^'' key, the vowel e with stress, lengthening, tense, stress, nasalization and low tone
 'e$&++@_^' + [K_TAB] > 'e%9330005' c Mapping for the ''e$&++@_^'' key, the vowel e with stress, lengthening, tense, stress, nasalization and extra high tone
@@ -1684,12 +1684,12 @@ group(main) using keys
 'e$-' + [K_TAB] > 'e45' c Mapping for the ''e$-'' key, the vowel e with low tone
 'e$++' + [K_TAB] > 'e335' c Mapping for the ''e$++'' key, the vowel e with extra high tone
 'e$+' + [K_TAB] > 'e35' c Mapping for the ''e$+'' key, the vowel e with high tone
-'e$' + [K_TAB] > 'e5' c Mapping for the ''e$'' key, the vowel e with
+'e$' + [K_TAB] > 'e5' c Mapping for the ''e$'' key, the vowel e with 
 'e--' + [K_TAB] > 'e44' c Mapping for the ''e--'' key, the vowel e with extra low tone
 'e-' + [K_TAB] > 'e4' c Mapping for the ''e-'' key, the vowel e with low tone
 'e++' + [K_TAB] > 'e33' c Mapping for the ''e++'' key, the vowel e with extra high tone
 'e+' + [K_TAB] > 'e3' c Mapping for the ''e+'' key, the vowel e with high tone
-+ 'e' > 'e' c Mapping for the ''e'' key, the vowel e
++ 'e' > 'e' c Mapping for the ''e'' key, the vowel e 
 'a$&--@_^' + [K_TAB] > 'a%9440005' c Mapping for the ''a$&--@_^'' key, the vowel a with stress, lengthening, tense, stress, nasalization and extra low tone
 'a$&-@_^' + [K_TAB] > 'a%940005' c Mapping for the ''a$&-@_^'' key, the vowel a with stress, lengthening, tense, stress, nasalization and low tone
 'a$&++@_^' + [K_TAB] > 'a%9330005' c Mapping for the ''a$&++@_^'' key, the vowel a with stress, lengthening, tense, stress, nasalization and extra high tone
@@ -1924,12 +1924,12 @@ group(main) using keys
 'a$-' + [K_TAB] > 'a45' c Mapping for the ''a$-'' key, the vowel a with low tone
 'a$++' + [K_TAB] > 'a335' c Mapping for the ''a$++'' key, the vowel a with extra high tone
 'a$+' + [K_TAB] > 'a35' c Mapping for the ''a$+'' key, the vowel a with high tone
-'a$' + [K_TAB] > 'a5' c Mapping for the ''a$'' key, the vowel a with
+'a$' + [K_TAB] > 'a5' c Mapping for the ''a$'' key, the vowel a with 
 'a--' + [K_TAB] > 'a44' c Mapping for the ''a--'' key, the vowel a with extra low tone
 'a-' + [K_TAB] > 'a4' c Mapping for the ''a-'' key, the vowel a with low tone
 'a++' + [K_TAB] > 'a33' c Mapping for the ''a++'' key, the vowel a with extra high tone
 'a+' + [K_TAB] > 'a3' c Mapping for the ''a+'' key, the vowel a with high tone
-+ 'a' > 'a' c Mapping for the ''a'' key, the vowel a
++ 'a' > 'a' c Mapping for the ''a'' key, the vowel a 
 'o$&--@_^' + [K_TAB] > '1%944000' c Mapping for the ''o$&--@_^'' key, the vowel o with stress, lengthening, tense, stress, nasalization and extra low tone
 'o$&-@_^' + [K_TAB] > '1%94000' c Mapping for the ''o$&-@_^'' key, the vowel o with stress, lengthening, tense, stress, nasalization and low tone
 'o$&++@_^' + [K_TAB] > '1%933000' c Mapping for the ''o$&++@_^'' key, the vowel o with stress, lengthening, tense, stress, nasalization and extra high tone
@@ -2164,12 +2164,12 @@ group(main) using keys
 'o$-' + [K_TAB] > '14' c Mapping for the ''o$-'' key, the vowel o with low tone
 'o$++' + [K_TAB] > '133' c Mapping for the ''o$++'' key, the vowel o with extra high tone
 'o$+' + [K_TAB] > '13' c Mapping for the ''o$+'' key, the vowel o with high tone
-'o$' + [K_TAB] > '1' c Mapping for the ''o$'' key, the vowel o with
+'o$' + [K_TAB] > '1' c Mapping for the ''o$'' key, the vowel o with 
 'o--' + [K_TAB] > 'o44' c Mapping for the ''o--'' key, the vowel o with extra low tone
 'o-' + [K_TAB] > 'o4' c Mapping for the ''o-'' key, the vowel o with low tone
 'o++' + [K_TAB] > 'o33' c Mapping for the ''o++'' key, the vowel o with extra high tone
 'o+' + [K_TAB] > 'o3' c Mapping for the ''o+'' key, the vowel o with high tone
-+ 'o' > 'o' c Mapping for the ''o'' key, the vowel o
++ 'o' > 'o' c Mapping for the ''o'' key, the vowel o 
 'u$&--@_^' + [K_TAB] > '2%944000' c Mapping for the ''u$&--@_^'' key, the vowel u with stress, lengthening, tense, stress, nasalization and extra low tone
 'u$&-@_^' + [K_TAB] > '2%94000' c Mapping for the ''u$&-@_^'' key, the vowel u with stress, lengthening, tense, stress, nasalization and low tone
 'u$&++@_^' + [K_TAB] > '2%933000' c Mapping for the ''u$&++@_^'' key, the vowel u with stress, lengthening, tense, stress, nasalization and extra high tone
@@ -2404,12 +2404,12 @@ group(main) using keys
 'u$-' + [K_TAB] > '24' c Mapping for the ''u$-'' key, the vowel u with low tone
 'u$++' + [K_TAB] > '233' c Mapping for the ''u$++'' key, the vowel u with extra high tone
 'u$+' + [K_TAB] > '23' c Mapping for the ''u$+'' key, the vowel u with high tone
-'u$' + [K_TAB] > '2' c Mapping for the ''u$'' key, the vowel u with
+'u$' + [K_TAB] > '2' c Mapping for the ''u$'' key, the vowel u with 
 'u--' + [K_TAB] > 'u44' c Mapping for the ''u--'' key, the vowel u with extra low tone
 'u-' + [K_TAB] > 'u4' c Mapping for the ''u-'' key, the vowel u with low tone
 'u++' + [K_TAB] > 'u33' c Mapping for the ''u++'' key, the vowel u with extra high tone
 'u+' + [K_TAB] > 'u3' c Mapping for the ''u+'' key, the vowel u with high tone
-+ 'u' > 'u' c Mapping for the ''u'' key, the vowel u
++ 'u' > 'u' c Mapping for the ''u'' key, the vowel u 
 '=.' + [K_TAB] > '.' c Mapping for the ''=.'' key, the period literal
 '=?' + [K_TAB] > '?' c Mapping for the ''=?'' key, the question literal
 '=!' + [K_TAB] > '!' c Mapping for the ''=!'' key, the exclamation literal
@@ -2451,8 +2451,8 @@ group(main) using keys
 'gW' + [K_TAB] > 'g55' c Mapping for the ''gw~'' key, the labialized g sound
 'g_' + [K_TAB] > 'gg' c Mapping for the ''g_'' key, the long g sound
 + 'g' > 'g' c Mapping for the ''g'' key, the g sound
-"'3" + [K_TAB] > U+0027 U+0033 c Mapping for the '"'~"' key, the hard transition
-"'366" + [K_TAB] > U+0027 U+0033 U+0036 U+0036 c Mapping for the '"'!"' key, the nang tone
+"'~" + [K_TAB] > U+0027 U+0033 c Mapping for the '"'~"' key, the hard transition
+"'!" + [K_TAB] > U+0027 U+0033 U+0036 U+0036 c Mapping for the '"'!"' key, the nang tone
 + [K_QUOTE] > "'" c Mapping for the '"'"' key, the lack of sound, glottal stop
 'dH!' + [K_TAB] > 'd^0' c Mapping for the ''dh!'' key, the voiceless d sound
 'd!' + [K_TAB] > 'd05' c Mapping for the ''d!'' key, the ejective d sound

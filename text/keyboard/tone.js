@@ -10210,11 +10210,6 @@ function Keyboard_tone()
         k.KDC(4,t);
         k.KO(-1,t,"mm%9");
       }
-      else if(k.KFCM(4,t,['\'','3','6','6'])){
-        r=m=1;   // Line 2455
-        k.KDC(4,t);
-        k.KO(-1,t,"'366");
-      }
       else if(k.KFCM(4,t,['x','@','y','~'])){
         r=m=1;   // Line 2637
         k.KDC(4,t);
@@ -10550,12 +10545,12 @@ function Keyboard_tone()
         k.KDC(3,t);
         k.KO(-1,t,"A%5");
       }
-      if(m) {}
       else if(k.KFCM(3,t,['A','-','_'])){
         r=m=1;   // Line 649
         k.KDC(3,t);
         k.KO(-1,t,"A%4");
       }
+      if(m) {}
       else if(k.KFCM(3,t,['A','+','_'])){
         r=m=1;   // Line 651
         k.KDC(3,t);
@@ -11051,12 +11046,12 @@ function Keyboard_tone()
         k.KDC(3,t);
         k.KO(-1,t,"i35");
       }
-      if(m) {}
       else if(k.KFCM(3,t,['i','-','-'])){
         r=m=1;   // Line 1448
         k.KDC(3,t);
         k.KO(-1,t,"i44");
       }
+      if(m) {}
       else if(k.KFCM(3,t,['i','+','+'])){
         r=m=1;   // Line 1450
         k.KDC(3,t);
@@ -11552,12 +11547,12 @@ function Keyboard_tone()
         k.KDC(3,t);
         k.KO(-1,t,"u^0");
       }
-      if(m) {}
       else if(k.KFCM(3,t,['u','$','!'])){
         r=m=1;   // Line 2367
         k.KDC(3,t);
         k.KO(-1,t,"2^");
       }
+      if(m) {}
       else if(k.KFCM(3,t,['u','-','!'])){
         r=m=1;   // Line 2369
         k.KDC(3,t);
@@ -12053,12 +12048,12 @@ function Keyboard_tone()
         k.KDC(2,t);
         k.KO(-1,t,"O3");
       }
-      if(m) {}
       else if(k.KFCM(2,t,['U','^'])){
         r=m=1;   // Line 1092
         k.KDC(2,t);
         k.KO(-1,t,"U9");
       }
+      if(m) {}
       else if(k.KFCM(2,t,['U','_'])){
         r=m=1;   // Line 1132
         k.KDC(2,t);
@@ -12404,10 +12399,15 @@ function Keyboard_tone()
         k.KDC(2,t);
         k.KO(-1,t,"gg");
       }
-      else if(k.KFCM(2,t,['\'','3'])){
+      else if(k.KFCM(2,t,['\'','~'])){
         r=m=1;   // Line 2454
         k.KDC(2,t);
         k.KO(-1,t,"'3");
+      }
+      else if(k.KFCM(2,t,['\'','!'])){
+        r=m=1;   // Line 2455
+        k.KDC(2,t);
+        k.KO(-1,t,"'366");
       }
       else if(k.KFCM(2,t,['d','!'])){
         r=m=1;   // Line 2458

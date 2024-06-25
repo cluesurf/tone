@@ -90,9 +90,9 @@ group(main) using keys`)
 // unicode
 function ui(x: Link) {
   if (x.i.startsWith("'")) {
-    return `"${x.o}"`
+    return `"${x.i}"`
   } else {
-    return `'${x.o}'`
+    return `'${x.i}'`
   }
 }
 function uo(x: Link) {
