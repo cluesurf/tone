@@ -120,7 +120,7 @@ function c(x: Link, replace?: string) {
     : x.i.match("'")
     ? `"${x.i}"`
     : `'${x.i}'`
-  const text = [`c Mapping for the '${code}' key`]
+  const text = [`c Mapping for the ${code} key`]
   if (x.name) {
     text.push(`the ${x.name.toLowerCase()}`)
   }
