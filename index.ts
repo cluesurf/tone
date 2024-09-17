@@ -1,8 +1,3 @@
-/* eslint-disable sort-keys/sort-keys-fix */
-/* eslint-disable @typescript-eslint/no-unsafe-return */
-/* eslint-disable @typescript-eslint/no-unsafe-assignment */
-/* eslint-disable @typescript-eslint/no-unsafe-member-access */
-/* eslint-disable @typescript-eslint/no-explicit-any */
 import st from '@lancejpollard/script-tree'
 
 const D: Record<string, string> = {
@@ -26,7 +21,8 @@ export type Link = {
   unicode?: boolean
 }
 
-const VOWELS: Array<Link> = []
+export const VOWELS: Array<Link> = []
+
 const BASE_VOWEL_GLYPHS = [
   'I',
   'E',
@@ -129,7 +125,7 @@ BASE_VOWEL_GLYPHS.forEach(g => {
   })
 })
 
-const CONSONANTS: Array<Link> = [
+export const CONSONANTS: Array<Link> = [
   { i: '=.', name: 'Period literal', o: '.' },
   { i: '=?', name: 'Question literal', o: '?' },
   { i: '=!', name: 'Exclamation literal', o: '!' },
@@ -392,7 +388,7 @@ const CONSONANTS: Array<Link> = [
   { i: ':', name: 'Colon', o: ':' },
 ]
 
-const NUMERALS = [
+export const NUMERALS = [
   { i: '0', o: '\u00a1', unicode: true },
   { i: '1', o: '\u00a6', unicode: true },
   { i: '2', o: '\u00a2', unicode: true },
@@ -406,19 +402,8 @@ const NUMERALS = [
 ]
 
 export const SYMBOLS = [...VOWELS, ...CONSONANTS, ...NUMERALS]
+
 const tree = st.fork(SYMBOLS) as any
 const make = (text: string) => st.form(text, tree) as string
-const view = (text: string) =>
-  make(text).replace(/</g, '&lt;').replace(/>/g, '&gt;')
 
-const form = {
-  SYMBOLS: SYMBOLS,
-  VOWELS: VOWELS,
-  CONSONANTS: CONSONANTS,
-  NUMERALS: NUMERALS,
-  // list: (text: string) => st.list(text, tree),
-  make,
-  view,
-}
-
-export default form
+export default make
