@@ -91,7 +91,12 @@ read and write any language pretty well.
 ## Usage
 
 ```ts
-import tone from '@termsurf/tone'
+import tone, {
+  symbols,
+  consonants,
+  vowels,
+  numerals,
+} from '@termsurf/tone'
 
 // Makes TalkText ASCII format into Tone-compatible font format.
 tone('aa+xa+a-ita-') // => aa3xa3a4ita4
