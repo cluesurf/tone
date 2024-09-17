@@ -21,9 +21,9 @@ export type Link = {
   unicode?: boolean
 }
 
-export const VOWELS: Array<Link> = []
+export const vowels: Array<Link> = []
 
-const BASE_VOWEL_GLYPHS = [
+const baseVowelGlyphs = [
   'I',
   'E',
   'A',
@@ -35,20 +35,20 @@ const BASE_VOWEL_GLYPHS = [
   'o',
   'u',
 ]
-const TONE_MARKS = ['--', '-', '++', '+', '']
-const VARIANT_MARKS = ['$', '']
-const NASAL_MARKS = ['&', '']
-const DURATION_MARKS = ['_', '!', '']
-const SYLLABIC_MARKS = ['@', '']
-const ACCENT_MARKS = ['^', '']
+const toneMarks = ['--', '-', '++', '+', '']
+const variantMarks = ['$', '']
+const nasalMarks = ['&', '']
+const durationMarks = ['_', '!', '']
+const syllabicMarks = ['@', '']
+const accentMarks = ['^', '']
 
-BASE_VOWEL_GLYPHS.forEach(g => {
-  ACCENT_MARKS.forEach(a => {
-    DURATION_MARKS.forEach(l => {
-      SYLLABIC_MARKS.forEach(s => {
-        NASAL_MARKS.forEach(n => {
-          VARIANT_MARKS.forEach(v => {
-            TONE_MARKS.forEach(t => {
+baseVowelGlyphs.forEach(g => {
+  accentMarks.forEach(a => {
+    durationMarks.forEach(l => {
+      syllabicMarks.forEach(s => {
+        nasalMarks.forEach(n => {
+          variantMarks.forEach(v => {
+            toneMarks.forEach(t => {
               const i = `${g}${v}${n}${t}${s}${l}${a}`
 
               let name: Array<string> = []
@@ -109,13 +109,13 @@ BASE_VOWEL_GLYPHS.forEach(g => {
                     : `${x === 'o' ? 1 : 2}${D[l]}${D[a]}${D[t]}${
                         D[n]
                       }${D[s]}`
-                VOWELS.push({ i, o, name: name.join(' ') })
+                vowels.push({ i, o, name: name.join(' ') })
               } else {
                 const o =
                   l === '!'
                     ? `${g}${D[a]}${D[t]}${D[l]}${D[n]}${D[s]}${D[v]}`
                     : `${g}${D[l]}${D[a]}${D[t]}${D[n]}${D[s]}${D[v]}`
-                VOWELS.push({ i, o, name: name.join(' ') })
+                vowels.push({ i, o, name: name.join(' ') })
               }
             })
           })
@@ -125,7 +125,7 @@ BASE_VOWEL_GLYPHS.forEach(g => {
   })
 })
 
-export const CONSONANTS: Array<Link> = [
+export const consonants: Array<Link> = [
   { i: '=.', name: 'Period literal', o: '.' },
   { i: '=?', name: 'Question literal', o: '?' },
   { i: '=!', name: 'Exclamation literal', o: '!' },
@@ -388,7 +388,7 @@ export const CONSONANTS: Array<Link> = [
   { i: ':', name: 'Colon', o: ':' },
 ]
 
-export const NUMERALS = [
+export const numerals = [
   { i: '0', o: '\u00a1', unicode: true },
   { i: '1', o: '\u00a6', unicode: true },
   { i: '2', o: '\u00a2', unicode: true },
@@ -401,9 +401,9 @@ export const NUMERALS = [
   { i: '9', o: '\u00ae', unicode: true },
 ]
 
-export const SYMBOLS = [...VOWELS, ...CONSONANTS, ...NUMERALS]
+export const symbols = [...vowels, ...consonants, ...numerals]
 
-const tree = st.fork(SYMBOLS) as any
+const tree = st.fork(symbols) as any
 const make = (text: string) => st.form(text, tree) as string
 
 export default make
