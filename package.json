@@ -1,6 +1,6 @@
 {
   "name": "@termsurf/tone",
-  "version": "3.2.0",
+  "version": "3.3.0",
   "main": "./host/index.js",
   "license": "MIT",
   "dependencies": {
@@ -45,14 +45,14 @@
     "webpack-cli": "^5.1.4"
   },
   "scripts": {
-    "make": "tsc && tsc-alias",
+    "toss": "rm -rf host",
+    "make": "pnpm toss && tsc && tsc-alias",
     "make:1": "webpack",
     "make:keyboard:code": "tsx text/keyboard",
     "make:keyboard:kmn": "cd text/keyboard && kmc build --color --debug tone.kmn",
     "make:keyboard:kps": "cd text/keyboard && kmc build --color --debug tone.kps -o tone.kmp",
     "make:keyboard": "pnpm make:keyboard:code && pnpm make:keyboard:kmn && pnpm make:keyboard:kps",
     "make:keyboard:windows": "pnpm make:keyboard:code && cd text/keyboard && kmc build --color windows-package-installer",
-    "move": "pnpm make && git add . && git commit -am 'save' && npm version patch && pnpm host && git push",
     "scan": "concurrently --kill-others \"tsc -w\" \"tsc-alias -w\"",
     "lint": "eslint --ext .ts ./make",
     "lint:tool": "npm run lint -- --fix",

@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-unsafe-member-access */
+/* eslint-disable @typescript-eslint/no-unsafe-assignment */
 import st from '@lancejpollard/script-tree'
 
 const D: Record<string, string> = {
@@ -403,7 +405,7 @@ export const numerals = [
 
 export const symbols = [...vowels, ...consonants, ...numerals]
 
-const tree = st.fork(symbols) as any
+const tree = st.fork(symbols)
 const make = (text: string) => st.form(text, tree) as string
 
 export default make

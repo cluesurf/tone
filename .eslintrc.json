@@ -9,7 +9,15 @@
     "project": ["./tsconfig.json"]
   },
   "parser": "@typescript-eslint/parser",
-  "plugins": ["@typescript-eslint", "import", "simple-import-sort", "sort-exports", "typescript-sort-keys", "sort-keys", "prettier"],
+  "plugins": [
+    "@typescript-eslint",
+    "import",
+    "simple-import-sort",
+    "sort-exports",
+    "typescript-sort-keys",
+    "sort-keys",
+    "prettier"
+  ],
   "extends": ["prettier"],
   "rules": {
     "curly": 2,
@@ -64,18 +72,21 @@
     ],
     "space-before-blocks": "off",
     "@typescript-eslint/space-before-blocks": ["error", "always"],
-    "@typescript-eslint/type-annotation-spacing": ["error", { "after": true }],
+    "@typescript-eslint/type-annotation-spacing": [
+      "error",
+      { "after": true }
+    ],
     "import/first": "error",
     "import/newline-after-import": "error",
     "import/no-duplicates": "error",
-    "sort-exports/sort-exports": ["error", { "sortDir": "asc" }],
-    "typescript-sort-keys/interface": "error",
-    "typescript-sort-keys/string-enum": "error",
-    "sort-keys": 0,
-    "sort-keys/sort-keys-fix": 2,
+    "sort-exports/sort-exports": ["off", { "sortDir": "asc" }],
+    "typescript-sort-keys/interface": "off",
+    "typescript-sort-keys/string-enum": "off",
+    "sort-keys": "off",
+    "sort-keys/sort-keys-fix": "off",
     "prettier/prettier": 2,
     "@typescript-eslint/no-unused-vars": "off",
-    "default-case": "error",
-    "default-case-last": "error"
+    "default-case": "off",
+    "default-case-last": "off"
   }
 }
