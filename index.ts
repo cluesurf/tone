@@ -313,7 +313,7 @@ export const consonants: Array<Link> = [
   { i: 'z~', name: 'Dental z sound', o: 'z7' },
   { i: 'z!', name: 'Ejective z sound', o: 'z93' },
   { i: 'z', name: 'Z sound', o: 'z' },
-  { i: 'C~', name: 'Danish th/l sound', o: 'C3' },
+  { i: 'Y', name: 'Danish th/l sound', o: 'C3' },
   { i: 'CQ~', name: 'Pharyngealized C sound', o: 'C66' },
   { i: 'CG~', name: 'Velarized C sound', o: 'C6' },
   { i: 'Cy~', name: 'Palatalized C sound', o: 'C5' },
