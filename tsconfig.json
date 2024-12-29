@@ -18,6 +18,6 @@
     "typeRoots": ["node_modules/@types"],
     "noImplicitAny": true
   },
-  "include": ["*.ts", "package.d.ts"],
+  "include": ["*.ts", "package.d.ts", "tmp/hone.ts"],
   "exclude": ["node_modules", "host"]
 }

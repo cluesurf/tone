@@ -1,6 +1,6 @@
 {
-  "name": "@termsurf/tone",
-  "version": "3.3.0",
+  "name": "@cluesurf/tone",
+  "version": "3.3.4",
   "main": "./host/index.js",
   "license": "MIT",
   "dependencies": {

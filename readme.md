@@ -6,7 +6,7 @@
 <br/>
 
 <p align='center'>
-  <img src='https://github.com/termsurf/tone/blob/make/view/view.svg?raw=true' height='312'/>
+  <img src='https://github.com/cluesurf/tone/blob/make/view/view.svg?raw=true' height='312'/>
 </p>
 
 <h3 align='center'>tone</h3>
@@ -22,7 +22,7 @@
 
 Checkout the [Discord server](https://discord.gg/FB4RYUY8) with any
 thoughts/comments/questions you have, or start a
-[GitHub discussion](https://github.com/termsurf/tone/discussions) or add
+[GitHub discussion](https://github.com/cluesurf/tone/discussions) or add
 something to the [Reddit group](https://www.reddit.com/r/tonetext/) if
 you'd like as well.
 
@@ -34,12 +34,12 @@ script. We like to think of them as **modern runes**. This means you can
 write any human language on Earth in tone text (constructed language or
 natural language) and read it without having to learn that language's
 specific quirks. Here is an example of the modern runes using the new
-[ToneEtch](https://github.com/termsurf/tone/blob/make/text/ToneEtch.otf)
+[ToneEtch](https://github.com/cluesurf/tone/blob/make/text/ToneEtch.otf)
 font. You can try it in the
 [interactive online Editor](https://tone.surf/dawn).
 
 <p align="center">
-  <img src="https://github.com/termsurf/tone/blob/make/view/tone-etch-2.png?raw=true" width="500" />
+  <img src="https://github.com/cluesurf/tone/blob/make/view/tone-etch-2.png?raw=true" width="500" />
 </p>
 
 Tone text is a sound-based script like the
@@ -50,7 +50,7 @@ memorize the sound. You simply learn the script and can pronounce the
 words and texts.
 
 <p align="center">
-  <img src="https://github.com/termsurf/tone/blob/make/view/example.jpg?raw=true" />
+  <img src="https://github.com/cluesurf/tone/blob/make/view/example.jpg?raw=true" />
 </p>
 
 You may note that Linguistics also has the International Phonetic
@@ -62,11 +62,11 @@ writing sentences or long texts. Tone Text is meant for the later, for
 writing like you would in a normal language.
 
 The ASCII encoding is mapped to IPA for your knowledge in the
-[Chat Text](https://github.com/termsurf/chat). Ideally, Tone Text would
+[Chat Text](https://github.com/cluesurf/chat). Ideally, Tone Text would
 be included in the Unicode standard, but
 [that is unlikely](http://www.unicode.org/pending/proposals.html). We
 have suggested it be used as a writing system
-[on Mars](https://twitter.com/termsurf/status/1372723474741927938) 😂.
+[on Mars](https://twitter.com/cluesurf/status/1372723474741927938) 😂.
 
 It doesn't necessarily play well with dyslexia, which might find the
 highly symmetric patterns difficult. We think there are far better
@@ -85,7 +85,7 @@ memorize how to pronounce words in a day or so, and from there you can
 read and write any language pretty well.
 
 <p align="center">
-  <img src="https://github.com/termsurf/tone/blob/make/view/transform.gif?raw=true" height="300" />
+  <img src="https://github.com/cluesurf/tone/blob/make/view/transform.gif?raw=true" height="300" />
 </p>
 
 ## Usage
@@ -96,7 +96,7 @@ import tone, {
   consonants,
   vowels,
   numerals,
-} from '@termsurf/tone'
+} from '@cluesurf/tone'
 
 // Makes TalkText ASCII format into Tone-compatible font format.
 tone('aa+xa+a-ita-') // => aa3xa3a4ita4
@@ -113,7 +113,7 @@ mouth-position-oriented sound. Ejectives and implosives are simply added
 with accent marks. Etc.
 
 <p align="center">
-  <img src="https://github.com/termsurf/tone/blob/make/view/alphabet.png?raw=true" width="500" />
+  <img src="https://github.com/cluesurf/tone/blob/make/view/alphabet.png?raw=true" width="500" />
 </p>
 
 Alphabetical order is this (1-36):
@@ -208,7 +208,7 @@ l* l
 Here is the consonant IPA phonology chart mapping.
 
 <p align="center">
-  <img src="https://github.com/termsurf/tone/blob/make/view/phonology.4.png?raw=true" />
+  <img src="https://github.com/cluesurf/tone/blob/make/view/phonology.4.png?raw=true" />
 </p>
 
 ## Numerology
@@ -280,7 +280,7 @@ r
 
 To get access to the font for your own system, just click and download
 the
-[ToneEtch.otf](https://github.com/termsurf/tone/blob/make/text/ToneEtch.otf)
+[ToneEtch.otf](https://github.com/cluesurf/tone/blob/make/text/ToneEtch.otf)
 directly.
 
 ## Development
@@ -299,11 +299,11 @@ pnpm make:keyboard
 
 MIT
 
-## TermSurf
+## ClueSurf
 
-This is being developed by the folks at [TermSurf](https://term.surf), a
+This is being developed by the folks at [ClueSurf](https://clue.surf), a
 California-based project for helping humanity master information and
-computation. Find us on [Twitter](https://twitter.com/termsurf),
-[LinkedIn](https://www.linkedin.com/company/termsurf), and
-[Facebook](https://www.facebook.com/termsurf). Check out our other
-[GitHub projects](https://github.com/termsurf) as well!
+computation. Find us on [Twitter](https://twitter.com/cluesurf),
+[LinkedIn](https://www.linkedin.com/company/cluesurf), and
+[Facebook](https://www.facebook.com/cluesurf). Check out our other
+[GitHub projects](https://github.com/cluesurf) as well!

@@ -6,7 +6,7 @@ Basic ASCII-related keyboard layout for Tone Text.
 
 ## License
 
-[Copyright (C) 2024 TermSurf](LICENSE.md)
+[Copyright (C) 2024 ClueSurf](LICENSE.md)
 
 ## Supported Platforms
 
