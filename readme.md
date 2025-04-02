@@ -38,7 +38,8 @@
 
 _Checkout the
 [GitHub discussion](https://github.com/cluesurf/tone/discussions) with
-any thoughts/comments/questions you have._
+any thoughts/comments/questions you have. But most importantly, explore
+the [website](https://tone.surf/)._
 
 ## Summary
 
