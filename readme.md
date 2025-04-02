@@ -56,7 +56,7 @@ writing sentences or long texts. Tone Text is meant for the later, for
 writing like you would in a normal language.
 
 The ASCII encoding is mapped to IPA for your knowledge in the
-[Chat Text](https://github.com/cluesurf/chat). Ideally, Tone Text would
+[Talk Text](https://github.com/cluesurf/talk). Ideally, Tone Text would
 be included in the Unicode standard, but
 [that is unlikely](http://www.unicode.org/pending/proposals.html). We
 have suggested it be used as a writing system
