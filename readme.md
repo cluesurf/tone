@@ -15,6 +15,22 @@
 </p>
 
 <br/>
+
+<p align="center">
+<em>These are the marks carrying deep tones.</em><br/>
+<em>Hand carved into stone before voice was known.</em><br/>
+<em>These are the lines that mirror the skies.</em><br/>
+<em>Curving like images in old sages' minds.</em><br/>
+<em>Follow them to understand the wise.</em><br/>
+</p>
+<p align="center">
+<em>These are the forms that vibe in the night.</em><br/>
+<em>Encoding new paths that guide to the light.</em><br/>
+<em>These are the glyphs that were made by the moon.</em><br/>
+<em>Uniquely identifying each sound of the tune.</em><br/>
+<em>Model your thoughts and wake to the truth.</em><br/>
+</p>
+
 <br/>
 <br/>
 
