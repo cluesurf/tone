@@ -20,7 +20,7 @@
 <em>These are the marks carrying deep tones.</em><br/>
 <em>Hand carved into stone before our voice was known.</em><br/>
 <em>These are the lines that mirror the skies.</em><br/>
-<em>Curving like images in old sages' minds.</em><br/>
+<em>Curving like images in the old sages minds.</em><br/>
 <em>Follow them to understand the wise.</em><br/>
 </p>
 <p align="center">
