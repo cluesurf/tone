@@ -6,7 +6,7 @@
 <br/>
 
 <p align='center'>
-  <img src='https://github.com/cluesurf/tone/blob/make/view/view.svg?raw=true' height='312'/>
+  <img src='https://github.com/cluesurf/tone/blob/make/view/flame.gif?raw=true' height='312'/>
 </p>
 
 <h3 align='center'>tone</h3>
@@ -20,11 +20,9 @@
 
 ## Discussions
 
-Checkout the [Discord server](https://discord.gg/FB4RYUY8) with any
-thoughts/comments/questions you have, or start a
-[GitHub discussion](https://github.com/cluesurf/tone/discussions) or add
-something to the [Reddit group](https://www.reddit.com/r/tonetext/) if
-you'd like as well.
+_Checkout the
+[GitHub discussion](https://github.com/cluesurf/tone/discussions) with
+any thoughts/comments/questions you have._
 
 ## Summary
 

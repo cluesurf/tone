@@ -18,8 +18,8 @@
   </StartMenu>
   <Info>
     <Version URL=""></Version>
-    <Name URL="https://github.com/termsurf/tone">Tone Layout</Name>
-    <Copyright URL="">© 2024 TermSurf</Copyright>
+    <Name URL="https://github.com/cluesurf/tone">Tone Layout</Name>
+    <Copyright URL="">© 2024 ClueSurf</Copyright>
     <Description>Basic ASCII-related keyboard layout for Tone Text.</Description>
   </Info>
   <Files>
