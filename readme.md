@@ -11,7 +11,7 @@
 
 <h3 align='center'>tone</h3>
 <p align='center'>
-  A Cross-Cultural Writing System
+  A Universal Script
 </p>
 
 <br/>
