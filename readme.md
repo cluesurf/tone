@@ -21,7 +21,7 @@
 <em>Hand carved into stone before our voice was known.</em><br/>
 <em>These are the lines that mirror the skies.</em><br/>
 <em>Curving like images in the old sages minds.</em><br/>
-<em>Follow them to understand the wise.</em><br/>
+<em>Follow them and discover the wise.</em><br/>
 </p>
 <p align="center">
 <em>These are the forms that vibe in the night.</em><br/>
