@@ -11,7 +11,7 @@
 
 <h3 align='center'>tone</h3>
 <p align='center'>
-  A Universal Script
+  A Speaking Alphabet
 </p>
 
 <br/>
