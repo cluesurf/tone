@@ -36,10 +36,6 @@ specific quirks. Here is an example of the modern runes using the new
 font. You can try it in the
 [interactive online Editor](https://tone.surf/dawn).
 
-<p align="center">
-  <img src="https://github.com/cluesurf/tone/blob/make/view/tone-etch-2.png?raw=true" width="500" />
-</p>
-
 Tone text is a sound-based script like the
 [Ancient Runes](https://en.wikipedia.org/wiki/Runes), which means when
 you read see a symbol/letter, you know exactly how it is pronounced.
