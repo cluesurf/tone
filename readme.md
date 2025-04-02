@@ -26,8 +26,8 @@
 <p align="center">
 <em>These are the forms that vibe in the night.</em><br/>
 <em>Encoding new paths that guide to the light.</em><br/>
-<em>These are the glyphs that were made by the moon.</em><br/>
-<em>Uniquely identifying each sound of the tune.</em><br/>
+<em>These are the glyphs that were made for the tune.</em><br/>
+<em>Uniquely identifying each sound in the room.</em><br/>
 <em>Model your thoughts and wake to the truth.</em><br/>
 </p>
 
