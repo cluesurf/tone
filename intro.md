@@ -1,5 +1,5 @@
 
-Hello! Welcome to Tune Text!
+Hello! Welcome to Tone Text!
 
 Here you will find a guide to each important sound and sound sequence for speaking the languages of Planet Earth.
 

@@ -492,9 +492,11 @@ MIT
 
 ## ClueSurf
 
-This is being developed by the folks at [ClueSurf](https://clue.surf), a
-California-based project for helping humanity master information and
-computation. Find us on [Twitter](https://twitter.com/cluesurf),
-[LinkedIn](https://www.linkedin.com/company/cluesurf), and
-[Facebook](https://www.facebook.com/cluesurf). Check out our other
-[GitHub projects](https://github.com/cluesurf) as well!
+Made by [ClueSurf](https://clue.surf), meditating on the universe ¤.
+Follow the work on [YouTube](https://youtube.com/@cluesurf),
+[X](https://x.com/cluesurf),
+[Instagram](https://instagram.com/cluesurf),
+[Substack](https://cluesurf.substack.com),
+[Facebook](https://facebook.com/cluesurf), and
+[LinkedIn](https://linkedin.com/company/cluesurf), and browse more of
+our open-source work here on [GitHub](https://github.com/cluesurf).
