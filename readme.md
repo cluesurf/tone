@@ -11,7 +11,7 @@
 
 <h3 align='center'>tone</h3>
 <p align='center'>
-  A Speaking Alphabet
+  A codified phonetic alphabet
 </p>
 
 <br/>
