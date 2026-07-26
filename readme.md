@@ -11,7 +11,7 @@
 
 <h3 align='center'>tone</h3>
 <p align='center'>
-  A codified phonetic alphabet
+  A codified phonetic alphabet Ξ
 </p>
 
 <br/>
