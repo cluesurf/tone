@@ -11,7 +11,7 @@
 
 <h3 align='center'>tone</h3>
 <p align='center'>
-  A codified phonetic alphabet Ξ
+  <b>T</b>riadic <b>O</b>rthography for <b>N</b>atural <b>E</b>xpression
 </p>
 
 <br/>
@@ -43,7 +43,8 @@ the [website](https://tone.surf/)._
 
 ## Summary
 
-Tone Text (esoteric name Hanákana) is a Universal Writing System (UWS),
+Tone Text (**T**riadic **O**rthography for **N**atural **E**xpression,
+esoteric name Hanákana) is a Universal Writing System (UWS),
 capable of representing all human voice sounds in a concise and readable
 script. We like to think of them as **modern runes**. This means you can
 write any human language on Earth in tone text (constructed language or
@@ -492,11 +493,4 @@ MIT
 
 ## ClueSurf
 
-Made by [ClueSurf](https://clue.surf), meditating on the universe ¤.
-Follow the work on [YouTube](https://youtube.com/@cluesurf),
-[X](https://x.com/cluesurf),
-[Instagram](https://instagram.com/cluesurf),
-[Substack](https://cluesurf.substack.com),
-[Facebook](https://facebook.com/cluesurf), and
-[LinkedIn](https://linkedin.com/company/cluesurf), and browse more of
-our open-source work here on [GitHub](https://github.com/cluesurf).
+Made by [ClueSurf](https://clue.surf), meditating on the universe.

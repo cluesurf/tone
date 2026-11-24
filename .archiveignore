@@ -1,0 +1,21 @@
+# What NOT to publish to the Internet Archive. gitignore syntax.
+# Everything else in this folder goes into the published zip.
+# `.git/` and `.env*` are always left out.
+
+# build output, dependencies, scratch (as in .gitignore)
+node_modules/
+tmp/
+bin/
+host/
+.next/
+
+# editor and agent settings
+.vscode/
+.claude/
+.DS_Store
+*.bak
+
+# credentials
+.npmrc
+*.pem
+*.key

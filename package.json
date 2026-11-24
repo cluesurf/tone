@@ -1,9 +1,21 @@
 {
   "name": "@cluesurf/tone",
-  "description": "A codified phonetic alphabet",
-  "version": "1.0.2",
+  "description": "A codified phonetic alphabet Ξ",
+  "version": "1.0.4",
   "main": "./host/index.js",
   "license": "MIT",
+  "repository": "github:cluesurf/tone",
+  "keywords": [
+    "phonetic alphabet",
+    "writing system",
+    "script",
+    "keyboard"
+  ],
+  "archive": {
+    "identifier": "tone-mark",
+    "title": "Tone",
+    "cover": "view/tone.svg"
+  },
   "dependencies": {
     "@lancejpollard/script-tree": "1.1.4"
   },
